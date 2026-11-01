@@ -1,0 +1,17 @@
+# Model checkpoints
+checkpoints/
+
+# ROS bag data
+data/rosbags/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs and temporary files
+logs/
+*.log
+
+# Virtual environments
+.venv/
+venv/
