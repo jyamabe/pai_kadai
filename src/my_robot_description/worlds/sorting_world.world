@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<sdf version="1.6">
+  <world name="sorting_world">
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://red_box</uri>
+      <name>red_box_1</name>
+      <pose>1.5 0.0 0.1 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://blue_box</uri>
+      <name>blue_box_1</name>
+      <pose>1.5 0.8 0.1 0 0 0</pose>
+    </include>
+   
+    <include>
+      <uri>model://green_box</uri>
+      <name>green_box_1</name>
+      <pose>1.5 -0.8 0.1 0 0 0</pose>
+    </include>
+
+  </world>
+</sdf>

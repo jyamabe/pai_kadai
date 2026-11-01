@@ -1,0 +1,5 @@
+[console_scripts]
+manipulation_sequence = sorting_robot_task.manipulation_sequence:main
+task_planner = sorting_robot_task.task_planner:main
+task_planner2 = sorting_robot_task.task_planner2:main
+

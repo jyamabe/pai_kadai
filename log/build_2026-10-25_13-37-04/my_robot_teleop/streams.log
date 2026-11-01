@@ -1,0 +1,24 @@
+[2.868s] Invoking command in '/home/ubuntu/pai_kadai/build/my_robot_teleop': PYTHONPATH=/home/ubuntu/pai_kadai/build/my_robot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/pai_kadai/install/my_robot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/pai_kadai/build/my_robot_teleop/build --no-deps symlink_data
+[3.948s] running develop
+[4.725s] running egg_info
+[4.725s] creating my_robot_teleop.egg-info
+[4.725s] writing my_robot_teleop.egg-info/PKG-INFO
+[4.725s] writing dependency_links to my_robot_teleop.egg-info/dependency_links.txt
+[4.725s] writing entry points to my_robot_teleop.egg-info/entry_points.txt
+[4.726s] writing requirements to my_robot_teleop.egg-info/requires.txt
+[4.726s] writing top-level names to my_robot_teleop.egg-info/top_level.txt
+[4.726s] writing manifest file 'my_robot_teleop.egg-info/SOURCES.txt'
+[4.734s] reading manifest file 'my_robot_teleop.egg-info/SOURCES.txt'
+[4.734s] writing manifest file 'my_robot_teleop.egg-info/SOURCES.txt'
+[4.738s] running build_ext
+[4.738s] Creating /home/ubuntu/pai_kadai/install/my_robot_teleop/lib/python3.10/site-packages/my-robot-teleop.egg-link (link to .)
+[4.741s] Installing teleop_keyboard script to /home/ubuntu/pai_kadai/install/my_robot_teleop/lib/my_robot_teleop
+[4.742s] 
+[4.742s] Installed /home/ubuntu/pai_kadai/build/my_robot_teleop
+[4.742s] running symlink_data
+[4.742s] creating /home/ubuntu/pai_kadai/install/my_robot_teleop/share/ament_index
+[4.742s] creating /home/ubuntu/pai_kadai/install/my_robot_teleop/share/ament_index/resource_index
+[4.742s] creating /home/ubuntu/pai_kadai/install/my_robot_teleop/share/ament_index/resource_index/packages
+[4.742s] symbolically linking /home/ubuntu/pai_kadai/build/my_robot_teleop/resource/my_robot_teleop -> /home/ubuntu/pai_kadai/install/my_robot_teleop/share/ament_index/resource_index/packages
+[4.743s] symbolically linking /home/ubuntu/pai_kadai/build/my_robot_teleop/package.xml -> /home/ubuntu/pai_kadai/install/my_robot_teleop/share/my_robot_teleop
+[4.811s] Invoked command in '/home/ubuntu/pai_kadai/build/my_robot_teleop' returned '0': PYTHONPATH=/home/ubuntu/pai_kadai/build/my_robot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/pai_kadai/install/my_robot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/pai_kadai/build/my_robot_teleop/build --no-deps symlink_data

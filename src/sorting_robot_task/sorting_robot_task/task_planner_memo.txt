@@ -1,0 +1,45 @@
+    def handle_approach_object(self):
+        """
+        AI検出位置を使って対象物へ向きを合わせる。
+        まだ本格的な距離制御は行わない。
+        """
+
+        center_x = int(
+            self.selected_object.get('center_x', 320)
+        )
+
+        # 現在の画像サイズを640x480と仮定
+        image_center_x = 320
+        error_x = center_x - image_center_x
+
+        message = Twist()
+
+        # 対象物が画面の左または右にある場合は旋回
+        if abs(error_x) > 40:
+            message.linear.x = 0.0
+
+            if error_x > 0:
+                # 対象物が右にある
+                message.angular.z = -0.15
+                self.get_logger().info(
+                    'Turning right to align'
+                )
+            else:
+                # 対象物が左にある
+                message.angular.z = 0.15
+                self.get_logger().info(
+                    'Turning left to align'
+                )
+
+            self.cmd_vel_publisher.publish(message)
+            return
+
+        # 対象物が中央付近にある場合
+        self.publish_stop()
+
+        self.get_logger().info(
+            'Object aligned'
+        )
+
+        # 現段階では、位置合わせ後に把持へ進む
+        self.change_state(TaskState.PICK_OBJECT)

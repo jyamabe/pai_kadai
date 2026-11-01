@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/pai_kadai/build/my_robot_description': /usr/bin/cmake /home/ubuntu/pai_kadai/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/pai_kadai/install/my_robot_description
+Invoked command in '/home/ubuntu/pai_kadai/build/my_robot_description' returned '1': /usr/bin/cmake /home/ubuntu/pai_kadai/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/pai_kadai/install/my_robot_description

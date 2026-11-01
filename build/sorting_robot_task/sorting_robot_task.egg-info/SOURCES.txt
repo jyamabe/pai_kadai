@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+resource/sorting_robot_task
+sorting_robot_task/__init__.py
+sorting_robot_task/manipulation_sequence.py
+sorting_robot_task/task_planner.py
+sorting_robot_task/task_planner2.py
+sorting_robot_task/task_planner_old.py
+sorting_robot_task.egg-info/PKG-INFO
+sorting_robot_task.egg-info/SOURCES.txt
+sorting_robot_task.egg-info/dependency_links.txt
+sorting_robot_task.egg-info/entry_points.txt
+sorting_robot_task.egg-info/requires.txt
+sorting_robot_task.egg-info/top_level.txt
+sorting_robot_task.egg-info/zip-safe

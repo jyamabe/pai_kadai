@@ -1,0 +1,24 @@
+[1.546s] Invoking command in '/home/ubuntu/pai_kadai/build/sorting_robot_perception': PYTHONPATH=/home/ubuntu/pai_kadai/build/sorting_robot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/pai_kadai/install/sorting_robot_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/pai_kadai/build/sorting_robot_perception/build --no-deps symlink_data
+[2.201s] running develop
+[2.626s] running egg_info
+[2.626s] creating sorting_robot_perception.egg-info
+[2.627s] writing sorting_robot_perception.egg-info/PKG-INFO
+[2.627s] writing dependency_links to sorting_robot_perception.egg-info/dependency_links.txt
+[2.627s] writing entry points to sorting_robot_perception.egg-info/entry_points.txt
+[2.627s] writing requirements to sorting_robot_perception.egg-info/requires.txt
+[2.627s] writing top-level names to sorting_robot_perception.egg-info/top_level.txt
+[2.628s] writing manifest file 'sorting_robot_perception.egg-info/SOURCES.txt'
+[2.630s] reading manifest file 'sorting_robot_perception.egg-info/SOURCES.txt'
+[2.631s] writing manifest file 'sorting_robot_perception.egg-info/SOURCES.txt'
+[2.636s] running build_ext
+[2.637s] Creating /home/ubuntu/pai_kadai/install/sorting_robot_perception/lib/python3.10/site-packages/sorting-robot-perception.egg-link (link to .)
+[2.638s] Installing color_detector script to /home/ubuntu/pai_kadai/install/sorting_robot_perception/lib/sorting_robot_perception
+[2.638s] 
+[2.638s] Installed /home/ubuntu/pai_kadai/build/sorting_robot_perception
+[2.639s] running symlink_data
+[2.639s] creating /home/ubuntu/pai_kadai/install/sorting_robot_perception/share/ament_index
+[2.639s] creating /home/ubuntu/pai_kadai/install/sorting_robot_perception/share/ament_index/resource_index
+[2.639s] creating /home/ubuntu/pai_kadai/install/sorting_robot_perception/share/ament_index/resource_index/packages
+[2.639s] symbolically linking /home/ubuntu/pai_kadai/build/sorting_robot_perception/resource/sorting_robot_perception -> /home/ubuntu/pai_kadai/install/sorting_robot_perception/share/ament_index/resource_index/packages
+[2.639s] symbolically linking /home/ubuntu/pai_kadai/build/sorting_robot_perception/package.xml -> /home/ubuntu/pai_kadai/install/sorting_robot_perception/share/sorting_robot_perception
+[2.687s] Invoked command in '/home/ubuntu/pai_kadai/build/sorting_robot_perception' returned '0': PYTHONPATH=/home/ubuntu/pai_kadai/build/sorting_robot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/pai_kadai/install/sorting_robot_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/pai_kadai/build/sorting_robot_perception/build --no-deps symlink_data

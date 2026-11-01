@@ -1,0 +1,4 @@
+[console_scripts]
+ai_detector = sorting_robot_perception.ai_detector:main
+imitation_policy = sorting_robot_perception.imitation_policy_node:main
+

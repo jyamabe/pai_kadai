@@ -1,0 +1,17 @@
+[1.390s] Invoking command in '/home/ubuntu/pai_kadai/build/sorting_robot_perception': PYTHONPATH=/home/ubuntu/pai_kadai/build/sorting_robot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/pai_kadai/install/sorting_robot_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/pai_kadai/build/sorting_robot_perception/build --no-deps symlink_data
+[1.996s] running develop
+[2.412s] running egg_info
+[2.412s] writing sorting_robot_perception.egg-info/PKG-INFO
+[2.412s] writing dependency_links to sorting_robot_perception.egg-info/dependency_links.txt
+[2.413s] writing entry points to sorting_robot_perception.egg-info/entry_points.txt
+[2.413s] writing requirements to sorting_robot_perception.egg-info/requires.txt
+[2.413s] writing top-level names to sorting_robot_perception.egg-info/top_level.txt
+[2.417s] reading manifest file 'sorting_robot_perception.egg-info/SOURCES.txt'
+[2.418s] writing manifest file 'sorting_robot_perception.egg-info/SOURCES.txt'
+[2.422s] running build_ext
+[2.422s] Creating /home/ubuntu/pai_kadai/install/sorting_robot_perception/lib/python3.10/site-packages/sorting-robot-perception.egg-link (link to .)
+[2.423s] Installing color_detector script to /home/ubuntu/pai_kadai/install/sorting_robot_perception/lib/sorting_robot_perception
+[2.423s] 
+[2.424s] Installed /home/ubuntu/pai_kadai/build/sorting_robot_perception
+[2.424s] running symlink_data
+[2.467s] Invoked command in '/home/ubuntu/pai_kadai/build/sorting_robot_perception' returned '0': PYTHONPATH=/home/ubuntu/pai_kadai/build/sorting_robot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/pai_kadai/install/sorting_robot_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/pai_kadai/build/sorting_robot_perception/build --no-deps symlink_data

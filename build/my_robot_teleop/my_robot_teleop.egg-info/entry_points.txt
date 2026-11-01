@@ -1,0 +1,3 @@
+[console_scripts]
+teleop_keyboard = my_robot_teleop.teleop_keyboard:main
+

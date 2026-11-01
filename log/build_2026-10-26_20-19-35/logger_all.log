@@ -1,0 +1,173 @@
+[0.150s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'my_robot_description']
+[0.150s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['my_robot_description'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b8ed3fe8ee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b8ed3fe8a90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b8ed3fe8a90>>)
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.360s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/pai_kadai'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[0.384s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_teleop) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_teleop) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_teleop) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_teleop) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_teleop) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_teleop) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_teleop) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_teleop) by extension 'ros'
+[0.385s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_teleop' with type 'ros.ament_python' and name 'my_robot_teleop'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_perception) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_perception) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_perception) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_perception) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_perception) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_perception) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_perception) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_perception) by extension 'ros'
+[0.387s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sorting_robot_perception' with type 'ros.ament_python' and name 'sorting_robot_perception'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_task) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_task) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_task) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_task) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_task) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_task) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_task) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_task) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_robot_task) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sorting_robot_task' with type 'ros.ament_python' and name 'sorting_robot_task'
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.415s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_robot_teleop' in 'src/my_robot_teleop'
+[0.415s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sorting_robot_perception' in 'src/sorting_robot_perception'
+[0.415s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sorting_robot_task' in 'src/sorting_robot_task'
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.419s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ubuntu/pai_kadai/install
+[0.421s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 67 installed packages in /home/ubuntu/airobot_ws/install
+[0.423s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 460 installed packages in /opt/ros/humble
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.480s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pai_kadai/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pai_kadai/install/my_robot_description', 'merge_install': False, 'path': '/home/ubuntu/pai_kadai/src/my_robot_description', 'symlink_install': True, 'test_result_base': None}
+[0.480s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.481s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.481s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/pai_kadai/src/my_robot_description' with build type 'ament_cmake'
+[0.481s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/pai_kadai/src/my_robot_description'
+[0.486s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/pai_kadai/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pai_kadai/install/sorting_robot_task:/home/ubuntu/pai_kadai/install/sorting_robot_perception:/home/ubuntu/pai_kadai/install/my_robot_teleop:/home/ubuntu/airobot_ws/install/yolov8_ros2:/home/ubuntu/airobot_ws/install/waypoint_navi:/home/ubuntu/airobot_ws/install/turtlebot3_teleop:/home/ubuntu/airobot_ws/install/turtlebot3_example:/home/ubuntu/airobot_ws/install/tf_examples:/home/ubuntu/airobot_ws/install/speech_topic:/home/ubuntu/airobot_ws/install/speech_service:/home/ubuntu/airobot_ws/install/speech_action:/home/ubuntu/airobot_ws/install/sample_sm_smach:/home/ubuntu/airobot_ws/install/sample_sm_flexbe_states:/home/ubuntu/airobot_ws/install/ros2_aruco:/home/ubuntu/airobot_ws/install/pseudo_node_service:/home/ubuntu/airobot_ws/install/pseudo_node_action:/home/ubuntu/airobot_ws/install/opencv_ros2:/home/ubuntu/airobot_ws/install/hello:/home/ubuntu/airobot_ws/install/happy_topic:/home/ubuntu/airobot_ws/install/happy_teleop:/home/ubuntu/airobot_ws/install/happy_service:/home/ubuntu/airobot_ws/install/happy_pub_sub:/home/ubuntu/airobot_ws/install/happy_parameter:/home/ubuntu/airobot_ws/install/happy_move:/home/ubuntu/airobot_ws/install/happy_lidar:/home/ubuntu/airobot_ws/install/bringme_service:/home/ubuntu/airobot_ws/install/happy_action:/home/ubuntu/airobot_ws/install/bringme_action:/home/ubuntu/airobot_ws/install/happy:/home/ubuntu/airobot_ws/install/flexbe_webui:/home/ubuntu/airobot_ws/install/flexbe_onboard:/home/ubuntu/airobot_ws/install/flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_mirror:/home/ubuntu/airobot_ws/install/flexbe_input:/home/ubuntu/airobot_ws/install/bringme_sm_flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_core:/home/ubuntu/airobot_ws/install/crane_plus_commander:/home/ubuntu/airobot_ws/install/bringme_sm_smach:/home/ubuntu/airobot_ws/install/amcl_subscriber:/home/ubuntu/airobot_ws/install/airobot_action:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/pai_kadai/build/my_robot_description -- -j12 -l12
+[0.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/pai_kadai/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pai_kadai/install/sorting_robot_task:/home/ubuntu/pai_kadai/install/sorting_robot_perception:/home/ubuntu/pai_kadai/install/my_robot_teleop:/home/ubuntu/airobot_ws/install/yolov8_ros2:/home/ubuntu/airobot_ws/install/waypoint_navi:/home/ubuntu/airobot_ws/install/turtlebot3_teleop:/home/ubuntu/airobot_ws/install/turtlebot3_example:/home/ubuntu/airobot_ws/install/tf_examples:/home/ubuntu/airobot_ws/install/speech_topic:/home/ubuntu/airobot_ws/install/speech_service:/home/ubuntu/airobot_ws/install/speech_action:/home/ubuntu/airobot_ws/install/sample_sm_smach:/home/ubuntu/airobot_ws/install/sample_sm_flexbe_states:/home/ubuntu/airobot_ws/install/ros2_aruco:/home/ubuntu/airobot_ws/install/pseudo_node_service:/home/ubuntu/airobot_ws/install/pseudo_node_action:/home/ubuntu/airobot_ws/install/opencv_ros2:/home/ubuntu/airobot_ws/install/hello:/home/ubuntu/airobot_ws/install/happy_topic:/home/ubuntu/airobot_ws/install/happy_teleop:/home/ubuntu/airobot_ws/install/happy_service:/home/ubuntu/airobot_ws/install/happy_pub_sub:/home/ubuntu/airobot_ws/install/happy_parameter:/home/ubuntu/airobot_ws/install/happy_move:/home/ubuntu/airobot_ws/install/happy_lidar:/home/ubuntu/airobot_ws/install/bringme_service:/home/ubuntu/airobot_ws/install/happy_action:/home/ubuntu/airobot_ws/install/bringme_action:/home/ubuntu/airobot_ws/install/happy:/home/ubuntu/airobot_ws/install/flexbe_webui:/home/ubuntu/airobot_ws/install/flexbe_onboard:/home/ubuntu/airobot_ws/install/flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_mirror:/home/ubuntu/airobot_ws/install/flexbe_input:/home/ubuntu/airobot_ws/install/bringme_sm_flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_core:/home/ubuntu/airobot_ws/install/crane_plus_commander:/home/ubuntu/airobot_ws/install/bringme_sm_smach:/home/ubuntu/airobot_ws/install/amcl_subscriber:/home/ubuntu/airobot_ws/install/airobot_action:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/pai_kadai/build/my_robot_description -- -j12 -l12
+[0.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/pai_kadai/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pai_kadai/install/sorting_robot_task:/home/ubuntu/pai_kadai/install/sorting_robot_perception:/home/ubuntu/pai_kadai/install/my_robot_teleop:/home/ubuntu/airobot_ws/install/yolov8_ros2:/home/ubuntu/airobot_ws/install/waypoint_navi:/home/ubuntu/airobot_ws/install/turtlebot3_teleop:/home/ubuntu/airobot_ws/install/turtlebot3_example:/home/ubuntu/airobot_ws/install/tf_examples:/home/ubuntu/airobot_ws/install/speech_topic:/home/ubuntu/airobot_ws/install/speech_service:/home/ubuntu/airobot_ws/install/speech_action:/home/ubuntu/airobot_ws/install/sample_sm_smach:/home/ubuntu/airobot_ws/install/sample_sm_flexbe_states:/home/ubuntu/airobot_ws/install/ros2_aruco:/home/ubuntu/airobot_ws/install/pseudo_node_service:/home/ubuntu/airobot_ws/install/pseudo_node_action:/home/ubuntu/airobot_ws/install/opencv_ros2:/home/ubuntu/airobot_ws/install/hello:/home/ubuntu/airobot_ws/install/happy_topic:/home/ubuntu/airobot_ws/install/happy_teleop:/home/ubuntu/airobot_ws/install/happy_service:/home/ubuntu/airobot_ws/install/happy_pub_sub:/home/ubuntu/airobot_ws/install/happy_parameter:/home/ubuntu/airobot_ws/install/happy_move:/home/ubuntu/airobot_ws/install/happy_lidar:/home/ubuntu/airobot_ws/install/bringme_service:/home/ubuntu/airobot_ws/install/happy_action:/home/ubuntu/airobot_ws/install/bringme_action:/home/ubuntu/airobot_ws/install/happy:/home/ubuntu/airobot_ws/install/flexbe_webui:/home/ubuntu/airobot_ws/install/flexbe_onboard:/home/ubuntu/airobot_ws/install/flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_mirror:/home/ubuntu/airobot_ws/install/flexbe_input:/home/ubuntu/airobot_ws/install/bringme_sm_flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_core:/home/ubuntu/airobot_ws/install/crane_plus_commander:/home/ubuntu/airobot_ws/install/bringme_sm_smach:/home/ubuntu/airobot_ws/install/amcl_subscriber:/home/ubuntu/airobot_ws/install/airobot_action:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/pai_kadai/build/my_robot_description
+[0.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[0.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/pai_kadai/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pai_kadai/install/sorting_robot_task:/home/ubuntu/pai_kadai/install/sorting_robot_perception:/home/ubuntu/pai_kadai/install/my_robot_teleop:/home/ubuntu/airobot_ws/install/yolov8_ros2:/home/ubuntu/airobot_ws/install/waypoint_navi:/home/ubuntu/airobot_ws/install/turtlebot3_teleop:/home/ubuntu/airobot_ws/install/turtlebot3_example:/home/ubuntu/airobot_ws/install/tf_examples:/home/ubuntu/airobot_ws/install/speech_topic:/home/ubuntu/airobot_ws/install/speech_service:/home/ubuntu/airobot_ws/install/speech_action:/home/ubuntu/airobot_ws/install/sample_sm_smach:/home/ubuntu/airobot_ws/install/sample_sm_flexbe_states:/home/ubuntu/airobot_ws/install/ros2_aruco:/home/ubuntu/airobot_ws/install/pseudo_node_service:/home/ubuntu/airobot_ws/install/pseudo_node_action:/home/ubuntu/airobot_ws/install/opencv_ros2:/home/ubuntu/airobot_ws/install/hello:/home/ubuntu/airobot_ws/install/happy_topic:/home/ubuntu/airobot_ws/install/happy_teleop:/home/ubuntu/airobot_ws/install/happy_service:/home/ubuntu/airobot_ws/install/happy_pub_sub:/home/ubuntu/airobot_ws/install/happy_parameter:/home/ubuntu/airobot_ws/install/happy_move:/home/ubuntu/airobot_ws/install/happy_lidar:/home/ubuntu/airobot_ws/install/bringme_service:/home/ubuntu/airobot_ws/install/happy_action:/home/ubuntu/airobot_ws/install/bringme_action:/home/ubuntu/airobot_ws/install/happy:/home/ubuntu/airobot_ws/install/flexbe_webui:/home/ubuntu/airobot_ws/install/flexbe_onboard:/home/ubuntu/airobot_ws/install/flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_mirror:/home/ubuntu/airobot_ws/install/flexbe_input:/home/ubuntu/airobot_ws/install/bringme_sm_flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_core:/home/ubuntu/airobot_ws/install/crane_plus_commander:/home/ubuntu/airobot_ws/install/bringme_sm_smach:/home/ubuntu/airobot_ws/install/amcl_subscriber:/home/ubuntu/airobot_ws/install/airobot_action:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/pai_kadai/build/my_robot_description
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pai_kadai/install/my_robot_description' for CMake module files
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pai_kadai/install/my_robot_description' for CMake config files
+[0.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[0.583s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[0.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pai_kadai/install/my_robot_description/bin'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pai_kadai/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pai_kadai/install/my_robot_description/lib/python3.10/site-packages'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pai_kadai/install/my_robot_description/bin'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/package.ps1'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/package.dsv'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/package.sh'
+[0.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/package.bash'
+[0.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/package.zsh'
+[0.587s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/pai_kadai/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[0.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pai_kadai/install/my_robot_description' for CMake module files
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pai_kadai/install/my_robot_description' for CMake config files
+[0.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pai_kadai/install/my_robot_description/bin'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pai_kadai/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pai_kadai/install/my_robot_description/lib/python3.10/site-packages'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pai_kadai/install/my_robot_description/bin'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/package.ps1'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/package.dsv'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/package.sh'
+[0.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/package.bash'
+[0.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pai_kadai/install/my_robot_description/share/my_robot_description/package.zsh'
+[0.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/pai_kadai/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[0.594s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.594s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.594s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.594s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.602s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.602s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.602s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.727s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.728s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pai_kadai/install/local_setup.ps1'
+[0.729s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/pai_kadai/install/_local_setup_util_ps1.py'
+[0.730s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pai_kadai/install/setup.ps1'
+[0.735s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pai_kadai/install/local_setup.sh'
+[0.736s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/pai_kadai/install/_local_setup_util_sh.py'
+[0.736s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pai_kadai/install/setup.sh'
+[0.740s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pai_kadai/install/local_setup.bash'
+[0.741s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pai_kadai/install/setup.bash'
+[0.745s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pai_kadai/install/local_setup.zsh'
+[0.746s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pai_kadai/install/setup.zsh'

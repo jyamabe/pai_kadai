@@ -1,0 +1,19 @@
+[0.891s] Invoking command in '/home/ubuntu/pai_kadai/build/sorting_robot_task': PYTHONPATH=/home/ubuntu/pai_kadai/build/sorting_robot_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/pai_kadai/install/sorting_robot_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/pai_kadai/build/sorting_robot_task/build --no-deps symlink_data
+[1.307s] running develop
+[1.554s] running egg_info
+[1.554s] writing sorting_robot_task.egg-info/PKG-INFO
+[1.555s] writing dependency_links to sorting_robot_task.egg-info/dependency_links.txt
+[1.555s] writing entry points to sorting_robot_task.egg-info/entry_points.txt
+[1.555s] writing requirements to sorting_robot_task.egg-info/requires.txt
+[1.556s] writing top-level names to sorting_robot_task.egg-info/top_level.txt
+[1.557s] reading manifest file 'sorting_robot_task.egg-info/SOURCES.txt'
+[1.558s] writing manifest file 'sorting_robot_task.egg-info/SOURCES.txt'
+[1.561s] running build_ext
+[1.561s] Creating /home/ubuntu/pai_kadai/install/sorting_robot_task/lib/python3.10/site-packages/sorting-robot-task.egg-link (link to .)
+[1.562s] Installing manipulation_sequence script to /home/ubuntu/pai_kadai/install/sorting_robot_task/lib/sorting_robot_task
+[1.562s] Installing task_planner script to /home/ubuntu/pai_kadai/install/sorting_robot_task/lib/sorting_robot_task
+[1.563s] Installing task_planner2 script to /home/ubuntu/pai_kadai/install/sorting_robot_task/lib/sorting_robot_task
+[1.563s] 
+[1.563s] Installed /home/ubuntu/pai_kadai/build/sorting_robot_task
+[1.563s] running symlink_data
+[1.586s] Invoked command in '/home/ubuntu/pai_kadai/build/sorting_robot_task' returned '0': PYTHONPATH=/home/ubuntu/pai_kadai/build/sorting_robot_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/pai_kadai/install/sorting_robot_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/pai_kadai/build/sorting_robot_task/build --no-deps symlink_data

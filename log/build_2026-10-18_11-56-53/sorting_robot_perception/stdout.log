@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating sorting_robot_perception.egg-info
+writing sorting_robot_perception.egg-info/PKG-INFO
+writing dependency_links to sorting_robot_perception.egg-info/dependency_links.txt
+writing entry points to sorting_robot_perception.egg-info/entry_points.txt
+writing requirements to sorting_robot_perception.egg-info/requires.txt
+writing top-level names to sorting_robot_perception.egg-info/top_level.txt
+writing manifest file 'sorting_robot_perception.egg-info/SOURCES.txt'
+reading manifest file 'sorting_robot_perception.egg-info/SOURCES.txt'
+writing manifest file 'sorting_robot_perception.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/pai_kadai/install/sorting_robot_perception/lib/python3.10/site-packages/sorting-robot-perception.egg-link (link to .)
+Installing color_detector script to /home/ubuntu/pai_kadai/install/sorting_robot_perception/lib/sorting_robot_perception
+
+Installed /home/ubuntu/pai_kadai/build/sorting_robot_perception
+running symlink_data
+creating /home/ubuntu/pai_kadai/install/sorting_robot_perception/share/ament_index
+creating /home/ubuntu/pai_kadai/install/sorting_robot_perception/share/ament_index/resource_index
+creating /home/ubuntu/pai_kadai/install/sorting_robot_perception/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/pai_kadai/build/sorting_robot_perception/resource/sorting_robot_perception -> /home/ubuntu/pai_kadai/install/sorting_robot_perception/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/pai_kadai/build/sorting_robot_perception/package.xml -> /home/ubuntu/pai_kadai/install/sorting_robot_perception/share/sorting_robot_perception

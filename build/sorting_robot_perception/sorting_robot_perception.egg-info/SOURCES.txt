@@ -1,0 +1,20 @@
+package.xml
+setup.cfg
+setup.py
+resource/sorting_robot_perception
+sorting_robot_perception/__init__.py
+sorting_robot_perception/ai_detector.py
+sorting_robot_perception/color_detector (copy).py
+sorting_robot_perception/color_detector.py
+sorting_robot_perception/color_detector_debug.py
+sorting_robot_perception/imitation_policy_node (copy).py
+sorting_robot_perception/imitation_policy_node.py
+sorting_robot_perception/imitation_policy_node_アーム.py
+sorting_robot_perception/imitation_policy_node_移動.py
+sorting_robot_perception.egg-info/PKG-INFO
+sorting_robot_perception.egg-info/SOURCES.txt
+sorting_robot_perception.egg-info/dependency_links.txt
+sorting_robot_perception.egg-info/entry_points.txt
+sorting_robot_perception.egg-info/requires.txt
+sorting_robot_perception.egg-info/top_level.txt
+sorting_robot_perception.egg-info/zip-safe
